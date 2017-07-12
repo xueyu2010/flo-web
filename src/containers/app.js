@@ -1,7 +1,12 @@
+require('styles/App.css');
+require('normalize.css/normalize.css');
+
 import React, { Component } from 'react';
 import JDTemplate from '../components/JD/JDTemplate'
 import About from '../components/About';
 import { vioAlgoDev, embedSysEng } from './constants'
+
+
 
 export default class App extends Component {
 
