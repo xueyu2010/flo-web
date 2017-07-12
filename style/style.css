@@ -1,0 +1,15 @@
+html *
+{
+  font-family: Microsoft YaHei,Open Sans,Gotham-Book,Lantinghei SC ;
+  background-color: #fafafa;
+  color: #616161;
+}
+
+html body {
+  font-family: Microsoft YaHei,Open Sans,Gotham-Book,Lantinghei SC ;
+  background-color: #fafafa;
+}
+
+span, p {
+  background-color: inherit;
+}
