@@ -9,7 +9,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "clean": "rimraf dist/*",
-    "copy": "copyfiles -f ./index.html ./favicon.ico ./dist",
+    "copy": "copyfiles -f ./src/index.html ./src/favicon.ico ./src/analytics.js ./dist",
     "dist": "npm run copy & webpack --env=dist",
     "lint": "eslint ./src",
     "posttest": "npm run lint",
