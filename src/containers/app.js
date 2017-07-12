@@ -6,7 +6,7 @@ import JDTemplate from '../components/JD/JDTemplate'
 import About from '../components/About';
 import { vioAlgoDev, embedSysEng } from './constants'
 
-
+let logo = require('../images/flo_logo.png');
 
 export default class App extends Component {
 
@@ -14,7 +14,7 @@ export default class App extends Component {
     return (
       <div style={styles.container}>
         <div style={styles.content}>
-          <img src="../images/flo_logo.png" style={{width: 200}} />
+          <img src={logo} alt="福萝" style={{width: 200}} />
           <h1 style={styles.floname}>flography</h1>
           <p style={styles.floname.floTagline}>TAKE BETTER PHOTOS</p>
           <h2 syyle={styles.sectionName}> 关于我们 </h2>
