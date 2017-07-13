@@ -27,7 +27,7 @@ export default class App extends Component {
           </div>
 
           <div style={styles.footer}>
-            Thrived to putting artificial intelligence into the low-powered device 2017 &copy; FLOGRAPHY 福萝
+            Thrive to putting artificial intelligence into cameras 2017 &copy; FLOGRAPHY 福萝
           </div>
 
         </div>
